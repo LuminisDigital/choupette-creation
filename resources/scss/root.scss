@@ -1,0 +1,40 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+    font-size: 18px;
+    background-color: #e9e5e5;
+
+
+}
+main{
+    min-height: 80vh;
+}
+:root{
+    --accent-gold : #bc9c22;
+    --accent-blue : #175f66;
+    --txt-white : #fff;
+}
+.lnk{
+    color: var(--accent-blue);
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: FiraSans;
+    src: url(../font/FiraSans.ttf);
+}
+

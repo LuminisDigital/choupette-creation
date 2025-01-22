@@ -1,0 +1,70 @@
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    flex-direction: column;
+    width: 90%;
+    margin: 18% auto;
+}
+.intro-img {
+    width: 35%;
+    margin: 5% 15px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.493);
+}
+.intro-img-container {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50%;
+margin: -5rem 0 2rem 0;
+gap: -15rem;
+
+}
+.intro-logo{
+    margin: -5rem 0 2rem 0;
+}
+.intro-ttl{
+    font-family: FiraSans;
+    font-size: 2rem;
+    color: var(--accent-blue);
+    margin-bottom: 5rem;
+}
+
+.intro-txt-container{
+    font-family: FiraSans;
+    font-size: 1.5rem;
+    color: var(--accent-gold);
+    line-height: 5rem;
+ margin: -2rem 0 2rem 0;
+}
+.intro-span{
+    color: var(--accent-blue);
+}
+.design2{
+    height: 35%;
+    position: absolute;
+    top: -14.5rem;
+    right: 0;
+    transform: scaleX(-1);
+}
+.design6{
+    transform: rotate(90deg);
+    width: 5%;
+    margin-top: -3rem;
+}
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+ }
+
+ .map-container iframe {
+    width: 80%;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.493);
+ }
