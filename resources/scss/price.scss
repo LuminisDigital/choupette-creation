@@ -1,0 +1,80 @@
+.tarifs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 18% auto;
+    font-family: FiraSans;
+}
+
+.tarifs-ttl {
+    font-size: 2rem;
+    color: var(--accent-blue);
+    margin: 5rem 0 7rem 0;
+}
+
+.tarifs-container {
+    background-color: #c0b9b98e;
+    padding: 3rem;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.tarifs-intro {
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--accent-blue);
+    max-width: 800px;
+}
+
+.tarifs-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tarifs-img {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.tarifs-note {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+.tarifs-btn-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.tarifs-btn {
+    width: 200px;
+    padding: 1rem;
+    background-color: var(--accent-blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: FiraSans;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    text-align: center;
+}
+
+.tarifs-btn:hover {
+    background-color: var(--accent-gold);
+    transform: scale(1.02);
+}

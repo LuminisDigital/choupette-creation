@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+
 Route::get('/', function () {
     return view('home');
 })->name('home');
@@ -18,3 +19,7 @@ Route::get('/realisations', function () {
 Route::get('/a-propos', function () {
     return view('about');
 })->name('about');
+
+Route::get('/price', function () {
+    return view('price');
+})->name('price');
