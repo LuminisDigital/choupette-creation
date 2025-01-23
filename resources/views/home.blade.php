@@ -23,12 +23,19 @@
 <p class="intro-txt">Prenez soin de l'artisanat <span class="intro-span">made in France !</span>  Vous aurez le plaisir d'un contact privilégié avec la créatrice.</p>
 <p class="intro-txt">Faites-moi confiance pour utiliser les <span class="intro-span">meilleurs matériaux</span>  pour vous comme les tissus certifiés oeko-tex.</p>
 </div>
-
+<div class="tarifs-btn-container">
+    <a href="{{ route('contact') }}" class="tarifs-btn">Me contacter</a>
+</div>
 
 <img class="design6" src="../img/design6.png" alt="">
 
 <div class="map-container">
     <h2 class="intro-ttl">Ou nous trouver</h2>
+    <div class="map-txt">
+        <p> 320 Boulevard du Val <br> étage 01 <br> 14200 Hérouville St Clair</p>
+        <p>06.49.65.62.31</p>
+        <p>creations.choupette@gmail.com</p>
+    </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2606.7788722042937!2d-0.33260582322820986!3d49.204754276269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c0cb8e3e1751b9f%3A0x84665c5d6d2b50b0!2sChoupette%20Cr%C3%A9ations!5e0!3m2!1sfr!2sfr!4v1737569930905!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 

@@ -4,6 +4,7 @@
 
 @section('content')
 <section class="contact">
+    <img class="design2" src="../img/design2.png" alt="">
     <h1 class="contact-ttl">Contactez-moi</h1>
 
     <form class="contact-form" action="/contact" method="POST">

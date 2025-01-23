@@ -4,7 +4,9 @@
 @section('title', 'Réalisations')
 
 @section('content')
+<img class="design2" src="../img/design2.png" alt="">
 <section class="realisations">
+
     <h1 class="realisations-ttl">Nos Réalisations</h1>
 
 

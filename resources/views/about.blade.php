@@ -4,6 +4,7 @@
 
 @section('content')
 <section class="about">
+    <img class="design2" src="../img/design2.png" alt="">
     <img class="intro-logo" src="../img/choupette.png" alt="">
     <h1 class="about-ttl">À propos de Choupette Créations</h1>
 

@@ -4,6 +4,7 @@
 
 @section('content')
 <section class="tarifs">
+    <img class="design2" src="../img/design2.png" alt="">
     <img class="intro-logo" src="../img/choupette.png" alt="">
     <h1 class="tarifs-ttl">Nos Tarifs</h1>
 
