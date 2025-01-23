@@ -14,3 +14,7 @@ Route::post('/contact', [ContactController::class, 'submit'])->name('contact.sub
 Route::get('/realisations', function () {
     return view('realisations');
 })->name('realisations');
+
+Route::get('/a-propos', function () {
+    return view('about');
+})->name('about');
