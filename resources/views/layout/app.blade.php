@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Choupette création</title>
     <link rel="shortcut icon" type="image/png" href="{{ asset('img/sigle-choupette.png') }}">
-    @vite(['resources/sass/app.scss', 'resources/js/app.js', 'resources/js/caroussel.js'])
+    @vite(['resources/sass/app.scss', 'resources/js/app.js', 'resources/js/caroussel.js', 'resources/js/burger.js'])
 </head>
 
 <body>
