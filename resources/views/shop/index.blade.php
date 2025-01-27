@@ -19,7 +19,7 @@
                     <div class="product-buttons">
                         <a href="{{ route('shop.show', $product->slug) }}" class="btn-details">En savoir plus</a>
                         @if($product->isInStock())
-                            <button class="btn-cart">Ajouter au panier</button>
+                        <button class="btn-cart" data-product-id="{{ $product->id }}">Ajouter au panier</button>
                         @endif
                     </div>
                 </div>

@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\CartController;
 
 Route::get('/', function () {
     return view('home');
@@ -27,3 +28,11 @@ Route::get('/price', function () {
 
 Route::get('/boutique', [ProductController::class, 'index'])->name('shop.index');
 Route::get('/boutique/{slug}', [ProductController::class, 'show'])->name('shop.show');
+Route::get('/panier', function () {
+    return view('shop.cart');
+})->name('cart');
+Route::get('/panier', [CartController::class, 'index'])->name('cart');
+Route::post('/cart/add', [CartController::class, 'add']);
+Route::post('/cart/update', [CartController::class, 'update']);
+Route::post('/cart/remove', [CartController::class, 'remove']);
+Route::post('/cart/clear', [CartController::class, 'clear']);
