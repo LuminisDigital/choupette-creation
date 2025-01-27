@@ -54,7 +54,9 @@
     transition: opacity 0.3s ease-in-out;
 
 }
-
+.belt{
+    transform: rotate(90deg);
+}
 .carousel-content img.active {
     opacity: 1;
     position: relative;

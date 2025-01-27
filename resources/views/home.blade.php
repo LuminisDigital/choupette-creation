@@ -46,8 +46,8 @@
             <p class="intro-txt">Faites-moi confiance pour utiliser les <span class="intro-span">meilleurs matériaux</span>
                 pour vous comme les tissus certifiés oeko-tex.</p>
         </div>
-        <div class="tarifs-btn-container">
-            <a href="{{ route('contact') }}" class="tarifs-btn">Me contacter</a>
+        <div class="price-btn-container">
+            <a href="{{ route('contact') }}" class="price-btn">Me contacter</a>
         </div>
 
         <img class="design6" src="../img/design6.png" alt="">

@@ -24,6 +24,11 @@
                 <img src="../img/broderie7.jpg" alt="Broderie 7">
                 <img src="../img/broderie8.jpg" alt="Broderie 8">
                 <img src="../img/broderie9.jpg" alt="Broderie 9">
+                <img src="../img/broderie10.jpg" alt="Broderie 10">
+                <img src="../img/broderie jules.jpg" alt="Broderie Jules">
+                <img src="../img/broderie PAPOU.jpg" alt="">
+                <img src="../img/broderie cliente.jpg" alt="">
+                <img class="belt" src="../img/ceinture chauffante.jpg" alt="">
             </div>
             <button class="carousel-btn next">&gt;</button>
         </div>
@@ -105,7 +110,7 @@
             <div class="carousel-content">
                 <img src="../img/gift1.jpg" alt="gift 1">
                 <img src="../img/gift2.jpg" alt="gift 2">
-                <img src="../img/broderie4.jpg" alt="gift 3">
+                <img src="../img/creations bebe.jpg" alt="gift 3">
             </div>
             <button class="carousel-btn next">&gt;</button>
         </div>

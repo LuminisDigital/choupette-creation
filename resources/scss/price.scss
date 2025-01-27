@@ -1,4 +1,4 @@
-.tarifs {
+.price {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,13 +7,23 @@
     font-family: FiraSans;
 }
 
-.tarifs-ttl {
+.price-ttl {
     font-size: 2rem;
     color: var(--accent-blue);
     margin: 5rem 0 7rem 0;
 }
-
-.tarifs-container {
+.price-course{
+    color: var(--accent-blue);
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+}
+.price-span{
+    color: var(--accent-gold);
+}
+.price-container {
     background-color: #c0b9b98e;
     padding: 3rem;
     border-radius: 10px;
@@ -25,20 +35,20 @@
     gap: 2rem;
 }
 
-.tarifs-intro {
+.price-intro {
     font-size: 1.2rem;
     text-align: center;
     color: var(--accent-blue);
     max-width: 800px;
 }
 
-.tarifs-content {
+.price-content {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.tarifs-img {
+.price-img {
     max-width: 800px;
     width: 100%;
     height: auto;
@@ -46,20 +56,20 @@
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 }
 
-.tarifs-note {
+.price-note {
     font-size: 1.1rem;
     text-align: center;
     color: #666;
     font-style: italic;
 }
-.tarifs-btn-container {
+.price-btn-container {
     display: flex;
     justify-content: center;
     width: 100%;
     margin: 2rem 0;
 }
 
-.tarifs-btn {
+.price-btn {
     width: 200px;
     padding: 1rem;
     background-color: var(--accent-blue);
@@ -74,7 +84,7 @@
     text-align: center;
 }
 
-.tarifs-btn:hover {
+.price-btn:hover {
     background-color: var(--accent-gold);
     transform: scale(1.02);
 }

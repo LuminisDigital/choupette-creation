@@ -9,7 +9,7 @@
                 <li><a class="lnk" href="{{ route('about') }}">A propos</a></li>
                 <li><a class="lnk" href="{{ route('realisations') }}">Réalisations</a></li>
                 <li><a class="lnk" href="{{ route('price') }}">Tarifs</a></li>
-                <li>Boutique</li>
+                <li><a class="lnk" href="{{ route('shop.index') }}">Boutique</a></li>
                 <li><a class="lnk" href="{{ route('contact') }}">Contact</a></li>
             </ul>
         </nav>
@@ -26,7 +26,7 @@
                 <li><a class="lnk" href="{{ route('about') }}">A propos</a></li>
                 <li><a class="lnk" href="{{ route('realisations') }}">Réalisations</a></li>
                 <li><a class="lnk" href="{{ route('price') }}">Tarifs</a></li>
-                <li>Boutique</li>
+                <li><a class="lnk" href="{{ route('shop.index') }}">Boutique</a></li>
                 <li><a class="lnk" href="{{ route('contact') }}">Contact</a></li>
             </ul>
         </nav>

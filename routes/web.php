@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ProductController;
 
 Route::get('/', function () {
     return view('home');
@@ -23,3 +24,6 @@ Route::get('/a-propos', function () {
 Route::get('/price', function () {
     return view('price');
 })->name('price');
+
+Route::get('/boutique', [ProductController::class, 'index'])->name('shop.index');
+Route::get('/boutique/{slug}', [ProductController::class, 'show'])->name('shop.show');
