@@ -31,7 +31,10 @@ main{
     color: var(--accent-blue);
     text-decoration: none;
 }
-
+.intro, .about, .realisations, .tarifs {
+    position: relative;
+    z-index: 0;
+}
 
 @font-face {
     font-family: FiraSans;

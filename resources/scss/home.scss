@@ -2,10 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4rem; /* Réduit pour un espacement plus harmonieux */
+    gap: 4rem;
     flex-direction: column;
     width: 90%;
-    margin: 12% auto; /* Réduit le margin-top excessif */
+    margin: 15rem auto;
 }
 
 .intro-logo {
@@ -16,17 +16,17 @@
     font-family: FiraSans;
     font-size: 2rem;
     color: var(--accent-blue);
-    margin-bottom: 3rem; /* Réduit pour plus d'harmonie */
+    margin-bottom: 3rem;
     text-align: center;
 }
 
-/* Galerie d'images */
+
 .gallery-container {
     width: 80%;
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin: 2rem auto; /* Espacement harmonisé */
+    margin: 2rem auto;
 }
 
 .gallery-img {
@@ -40,7 +40,7 @@
     transform: scale(1.02);
 }
 
-/* Section machines */
+
 .machines-section {
     width: 100%;
     padding: 4rem 0;
@@ -95,7 +95,7 @@
     transform: scale(1.02);
 }
 
-/* Texte et contenu */
+
 .intro-txt-container {
     width: 80%;
 
@@ -115,13 +115,14 @@
     color: var(--accent-blue);
 }
 
-/* Éléments décoratifs */
+
 .design2 {
-    height: 25rem;
-    position: absolute;
-    top: -2.3%;
+    height: 35%;
+    position: fixed;
+    top: 7rem;
     right: 0;
     transform: scaleX(-1);
+    z-index: -1;
 }
 
 .design6 {
@@ -131,14 +132,15 @@
     display: block;
 }
 
-/* Section carte */
+
 .map-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 4rem 2rem; /* Espacement harmonisé */
+    padding: 4rem 2rem;
+
 }
 
 .map-container iframe {
@@ -153,11 +155,11 @@
     color: var(--accent-blue);
     font-size: 1.5rem;
     line-height: 2.5rem;
-    margin-bottom: 3rem; /* Espacement harmonisé */
+    margin-bottom: 3rem;
     text-align: center;
 }
 
-/* Media Queries */
+
 @media (max-width: 968px) {
     .intro {
         gap: 3rem;
@@ -168,7 +170,7 @@
         width: 90%;
         flex-direction: column;
         align-items: center;
-        gap: 3rem; /* Espacement harmonisé */
+        gap: 3rem;
     }
 
     .gallery-img {
